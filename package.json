@@ -1,0 +1,29 @@
+{
+  "name": "new-relic-leak",
+  "version": "0.0.1",
+  "description": "a basic program to illustrate the new relic node memory leak.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nicholaswyoung/new-relic-leak.git"
+  },
+  "author": "Nicholas Young",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/nicholaswyoung/new-relic-leak/issues"
+  },
+  "homepage": "https://github.com/nicholaswyoung/new-relic-leak",
+  "dependencies": {
+    "newrelic": "^1.5.2",
+    "express": "^4.1.0",
+    "memwatch": "^0.2.2",
+    "webkit-devtools-agent": "^0.2.4",
+    "monk": "^0.8.1",
+    "jade": "^1.3.1",
+    "errorhandler": "^1.0.0",
+    "morgan": "^1.0.0"
+  }
+}
