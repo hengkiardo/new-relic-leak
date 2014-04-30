@@ -57,6 +57,12 @@ app.route('/db')
     res.render('db', { numbers: req.numbers });
   });
 
+app.route('/dbclean')
+  .get(_.load)
+  .get(function (req, res) {
+    res.json(req.numbers);
+  });
+
 app.use(require('errorhandler')());
 
 exports.boot = function () {
